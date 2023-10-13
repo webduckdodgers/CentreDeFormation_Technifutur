@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cesar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-11 10:53:32 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjEwOjQ3OjQ3ICI7Mjc2Mg=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjEwOjUzOjMyICI7MjsyODYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab" type="String" array="True" size="7"/>
+            <assign variable="tab[0]" expression="&quot;Lundi&quot;"/>
+            <assign variable="tab[1]" expression="&quot;Mardi&quot;"/>
+            <assign variable="tab[2]" expression="&quot;Mercredi&quot;"/>
+            <assign variable="tab[3]" expression="&quot;Jeudi&quot;"/>
+            <assign variable="tab[4]" expression="&quot;Vendredi&quot;"/>
+            <assign variable="tab[5]" expression="&quot;Samedi&quot;"/>
+            <assign variable="tab[6]" expression="&quot;Dimanche&quot;"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <declare name="indexMax" type="Integer" array="False" size=""/>
+            <assign variable="indexMax" expression="size(tab)-1"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <output expression="tab[index]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

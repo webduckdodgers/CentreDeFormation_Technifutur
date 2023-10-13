@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #cards-container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: green;
+  }
+  
+  .card {
+    width: calc(100% / 6);
+    height: 250px;
+    padding: 10px;
+  }
+  
+  .card-inner {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    background-size: auto 75%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+    transform: rotateY(180deg);
+  }
+  
+  .flip {
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .found {
+    opacity: 0;
+    transition: all 1s ease;
+    pointer-events: none;
+  }

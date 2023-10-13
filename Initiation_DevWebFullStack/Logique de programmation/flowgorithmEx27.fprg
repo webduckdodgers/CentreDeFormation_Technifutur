@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cesar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-11 09:29:42 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA5OjIxOjEwICI7Mjc1Mg=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA5OjI5OjQyICI7MTsyODcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab" type="Integer" array="True" size="10"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <declare name="indexMax" type="Integer" array="False" size=""/>
+            <declare name="nombre" type="Integer" array="False" size=""/>
+            <assign variable="nombre" expression="1"/>
+            <assign variable="indexMax" expression="size(tab)-1"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <assign variable="nombre" expression="nombre*2"/>
+                <assign variable="tab[index]" expression="nombre"/>
+            </for>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <output expression="tab[index]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

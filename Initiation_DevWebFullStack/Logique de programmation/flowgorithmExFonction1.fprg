@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cesar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-07 09:56:09 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDgtMDc7IjA5OjQxOjE5ICI7Mjc2OQ=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDgtMDc7IjA5OjU2OjA5ICI7MjsyODgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="longueur" type="Integer" array="False" size=""/>
+            <input variable="longueur"/>
+        </body>
+    </function>
+    <function name="sommeCarre" type="Integer" variable="somme">
+        <parameters>
+            <parameter name="somme" type="Integer" array="False"/>
+            <parameter name="a" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="longueur" type="Integer" array="False" size=""/>
+            <declare name="resultat" type="Integer" array="False" size=""/>
+            <input variable="longueur"/>
+            <call expression=""/>
+        </body>
+    </function>
+</flowgorithm>

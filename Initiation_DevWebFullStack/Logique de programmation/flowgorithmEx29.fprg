@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cesar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-11 09:51:58 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA4OjI4OjA5ICI7Mjc2Ng=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA5OjUxOjU4ICI7MzsyODc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab" type="Integer" array="True" size="5"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <declare name="indexMax" type="Integer" array="False" size=""/>
+            <assign variable="indexMax" expression="size(tab)-1"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <assign variable="Tab[index]" expression="Random(100)"/>
+                <output expression="tab[index]" newline="True"/>
+            </for>
+            <declare name="plusGrand" type="Integer" array="False" size=""/>
+            <assign variable="plusGrand" expression="tab[0]"/>
+            <declare name="plusPetit" type="Integer" array="False" size=""/>
+            <assign variable="plusPetit" expression="tab[0]"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <if expression="tab[index] &gt;= plusGrand">
+                    <then>
+                        <assign variable="plusGrand" expression="tab[index]"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="tab[index] &lt;= plusPetit">
+                    <then>
+                        <assign variable="plusPetit" expression="tab[index]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Le nombre le plus grand dans le tableau est &quot;&amp;plusGrand" newline="True"/>
+            <output expression="&quot;Le nombre le plus petit dans le tableau est &quot;&amp;plusPetit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

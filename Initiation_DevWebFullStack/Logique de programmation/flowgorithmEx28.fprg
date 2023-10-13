@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cesar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-11 09:55:22 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA4OjI4OjA5ICI7Mjc2Ng=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA5OjU1OjIyICI7MzsyODcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab" type="Integer" array="True" size="5"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <declare name="indexMax" type="Integer" array="False" size=""/>
+            <assign variable="indexMax" expression="size(tab)-1"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <assign variable="Tab[index]" expression="Random(100)"/>
+                <output expression="tab[index]" newline="True"/>
+            </for>
+            <declare name="examinerNombre" type="Integer" array="False" size=""/>
+            <assign variable="examinerNombre" expression="tab[0]"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <if expression="tab[index] &gt; examinerNombre">
+                    <then>
+                        <assign variable="examinerNombre" expression="tab[index]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Le nombre le plus grand dans le tableau est &quot;&amp;examinerNombre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

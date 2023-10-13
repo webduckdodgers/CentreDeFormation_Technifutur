@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background-color: #333333;
+    height: 40px;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+li {
+}
+
+.menu {
+    display: flex;
+    color: #E99002;
+    text-decoration: none;
+}
+
+main {
+}
+
+footer {
+    background-color: #333333;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#copyRight {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+span {
+    border: 1px dashed white;
+    rotate: 90deg;
+    width: 20px;
+}
+
+.hero {
+    background-color: #1E93CC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+#man {
+    position: absolute;
+    left: 0;
+}
+
+.hero > h2 {
+    padding: 0px 20px 20px;
+    text-align: center;
+}
+
+.hero > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E99002;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.informations {
+    background-color: #1E93CC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.informations > section {
+    max-width: 550px;
+    padding: 20px;
+    flex: calc(100% / 2);
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding: 40px 0;
+    gap: 10px;
+}
+
+.teams > img {
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0 100px;
+}
+
+.links > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #165882;
+    color: white;
+    border-radius: 5px;
+    min-width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 2px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Example - Strings"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This simple example reads a name from the screen and then outputs each character on a separate line. It demonstrates the usage of the Len() function."/>
+        <attribute name="saved" value="2023-07-11 04:04:10 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjExOjE1OjAzICI7Mjc1MA=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA0OjA0OjEwICI7MjsyODU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab" type="String" array="True" size="3"/>
+            <assign variable="tab[0]" expression="&quot;lundi&quot;"/>
+            <assign variable="tab[1]" expression="&quot;mardi&quot;"/>
+            <assign variable="tab[2]" expression="&quot;mercredi&quot;"/>
+            <declare name="indexMot" type="Integer" array="False" size=""/>
+            <for variable="" start="" end="" direction="inc" step=""/>
+            <declare name="indexTab" type="Integer" array="False" size=""/>
+            <declare name="sommeMot" type="Integer" array="False" size=""/>
+            <for variable="indexMot" start="0" end="size(tab)-1" direction="inc" step="1">
+                <output expression="char(tab[index], Len())" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

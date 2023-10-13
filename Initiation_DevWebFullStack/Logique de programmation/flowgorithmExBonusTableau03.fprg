@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cesar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-11 04:43:38 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA0OjA0OjEzICI7Mjc1MQ=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjA0OjQzOjM4ICI7MTsyODY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab" type="Integer" array="True" size="5"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <declare name="indexMax" type="Integer" array="False" size=""/>
+            <assign variable="indexMax" expression="size(tab)-1"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <assign variable="tab[index]" expression="Random(10)"/>
+                <output expression="tab[index]" newline="True"/>
+            </for>
+            <declare name="nombrePlusGrand" type="Integer" array="False" size=""/>
+            <assign variable="nombrePlusGrand" expression="tab[0]"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <if expression="tab[index] &gt; nombrePlusGrand">
+                    <then>
+                        <declare name="stock" type="Integer" array="False" size=""/>
+                        <assign variable="stock" expression="nombrePlusGrand"/>
+                        <assign variable="nombrePlusGrand" expression="tab[index]"/>
+                        <assign variable="tab[index]" expression="stock"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <output expression="&quot;new tab &quot;&amp;tab[index]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

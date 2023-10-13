@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cesar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-11 10:14:53 "/>
+        <attribute name="created" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjEwOjAyOjA2ICI7Mjc0OA=="/>
+        <attribute name="edited" value="Q2VzYXI7REVTS1RPUC1VUVUzNkJFOzIwMjMtMDctMTE7IjEwOjE0OjUzICI7MzsyODYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab" type="Integer" array="True" size="5"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <declare name="indexMax" type="Integer" array="False" size=""/>
+            <assign variable="indexMax" expression="size(tab)-1"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <assign variable="tab[index]" expression="Random(10)"/>
+                <output expression="tab[index]" newline="True"/>
+            </for>
+            <declare name="somme" type="Integer" array="False" size=""/>
+            <assign variable="somme" expression="0"/>
+            <for variable="index" start="0" end="indexMax" direction="inc" step="1">
+                <assign variable="somme" expression="somme + tab[index]"/>
+            </for>
+            <declare name="moyenne" type="Integer" array="False" size=""/>
+            <assign variable="moyenne" expression="somme / indexMax"/>
+            <output expression="&quot;La moyenne du tableau est &quot;&amp;moyenne" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Page Home</title>
+        <style>
+            body{
+                background-color: chartreuse;
+            }
+        </style>
+    </head>
+<body>
+    <h1><%= title %></h1>
+    <% datas.forEach(pignouf => { %>
+        <p><%= pignouf.first_name %></p>
+    <% }) %>
+</body>
+</html>
+
