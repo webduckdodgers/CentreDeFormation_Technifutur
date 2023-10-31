@@ -1,4 +1,4 @@
-﻿
+﻿using Heroes_Vs_Monsters;
 
 #region Énoncé :
 /*
@@ -76,3 +76,10 @@
     Leu jeu s’arrête lorsqu’il n’y a plus de monstres sur la carte ou que le héros meurt.
 */
 #endregion
+
+
+Personnages marc = new Personnages(Niveau.addition(), Niveau.addition(), Niveau.addition());
+
+
+
+Console.WriteLine($"{marc.vie} ma vie \n{marc.endurance} mon endurance \n{marc.force} ma force");   
