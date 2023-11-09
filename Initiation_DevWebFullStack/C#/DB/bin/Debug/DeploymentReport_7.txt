@@ -1,0 +1,20 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Le type de la colonne name dans la table [dbo].[Category] est actuellement  NCHAR (50) NOT NULL, mais est remplacé par 
+         VARCHAR (50) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient
+         des données incompatibles avec le type  VARCHAR (50) NOT NULL.
+
+** Actions de l'utilisateur
+     Modifier
+       [dbo].[Category] (Table)
+
+** Actions de support
+
+Le type de la colonne name dans la table [dbo].[Category] est actuellement  NCHAR (50) NOT NULL, mais est remplacé par  VARCHAR (50) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  VARCHAR (50) NOT NULL.
+

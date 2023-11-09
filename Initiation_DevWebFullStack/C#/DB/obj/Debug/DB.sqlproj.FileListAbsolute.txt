@@ -1,0 +1,6 @@
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\DB\bin\Debug\DB.dacpac
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\DB\bin\Debug\DB.dll
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\DB\bin\Debug\DB.pdb
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\DB\obj\Debug\DB.sqlproj.AssemblyReference.cache
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\DB\obj\Debug\DB.dll
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\DB\obj\Debug\DB.pdb

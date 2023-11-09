@@ -1,0 +1,22 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Categories] (Table)
+       [dbo].[Games] (Table)
+       [dbo].[User_Game] (Table)
+       [dbo].[Users] (Table)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[User_Game] (Contrainte par défaut)
+       Clé étrangère: contrainte sans nom sur [dbo].[Games] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[User_Game] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[User_Game] (Clé étrangère)
+
+** Actions de support

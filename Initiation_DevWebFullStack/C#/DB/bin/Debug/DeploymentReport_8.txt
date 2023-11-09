@@ -1,0 +1,58 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       La colonne [dbo].[Games].[category_id] est en cours de suppression, des données risquent d'être perdues.
+       Le type de la colonne Name dans la table [dbo].[Games] est actuellement  NCHAR (100) NOT NULL, mais est remplacé par 
+         VARCHAR (50) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient
+         des données incompatibles avec le type  VARCHAR (50) NOT NULL.
+       Le type de la colonne Price dans la table [dbo].[Games] est actuellement  FLOAT (53) NOT NULL, mais est remplacé par 
+         MONEY NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des
+         données incompatibles avec le type  MONEY NOT NULL.
+       La colonne [dbo].[Users].[nom] est en cours de suppression, des données risquent d'être perdues.
+       La colonne [dbo].[Users].[prenom] est en cours de suppression, des données risquent d'être perdues.
+       Le type de la colonne Country dans la table [dbo].[Users] est actuellement  CHAR (2) NULL, mais est remplacé par 
+         TINYINT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des
+         données incompatibles avec le type  TINYINT NULL.
+       Le type de la colonne Email dans la table [dbo].[Users] est actuellement  NCHAR (100) NOT NULL, mais est remplacé par 
+         VARCHAR (100) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient
+         des données incompatibles avec le type  VARCHAR (100) NOT NULL.
+       Le type de la colonne Password dans la table [dbo].[Users] est actuellement  NCHAR (100) NOT NULL, mais est remplacé par
+          VARCHAR (255) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient
+         des données incompatibles avec le type  VARCHAR (255) NOT NULL.
+       Le type de la colonne Wallet dans la table [dbo].[Users] est actuellement  FLOAT (53) NOT NULL, mais est remplacé par 
+         MONEY NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des
+         données incompatibles avec le type  MONEY NOT NULL.
+
+** Actions de l'utilisateur
+     Supprimer
+       contrainte sans nom sur [dbo].[Users] (Contrainte par défaut)
+       contrainte sans nom sur [dbo].[Games] (Clé étrangère)
+     Modifier
+       [dbo].[Games] (Table)
+       [dbo].[Users] (Table)
+     Créer
+       Contrainte unique: contrainte sans nom sur [dbo].[Users] (Contrainte unique)
+       [dbo].[Categories] (Table)
+       [dbo].[User_Game] (Table)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[User_Game] (Contrainte par défaut)
+       Clé étrangère: contrainte sans nom sur [dbo].[Games] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[User_Game] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[User_Game] (Clé étrangère)
+
+** Actions de support
+
+La colonne [dbo].[Games].[category_id] est en cours de suppression, des données risquent d'être perdues.
+Le type de la colonne Name dans la table [dbo].[Games] est actuellement  NCHAR (100) NOT NULL, mais est remplacé par  VARCHAR (50) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  VARCHAR (50) NOT NULL.
+Le type de la colonne Price dans la table [dbo].[Games] est actuellement  FLOAT (53) NOT NULL, mais est remplacé par  MONEY NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  MONEY NOT NULL.
+La colonne [dbo].[Users].[nom] est en cours de suppression, des données risquent d'être perdues.
+La colonne [dbo].[Users].[prenom] est en cours de suppression, des données risquent d'être perdues.
+Le type de la colonne Country dans la table [dbo].[Users] est actuellement  CHAR (2) NULL, mais est remplacé par  TINYINT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  TINYINT NULL.
+Le type de la colonne Email dans la table [dbo].[Users] est actuellement  NCHAR (100) NOT NULL, mais est remplacé par  VARCHAR (100) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  VARCHAR (100) NOT NULL.
+Le type de la colonne Password dans la table [dbo].[Users] est actuellement  NCHAR (100) NOT NULL, mais est remplacé par  VARCHAR (255) NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  VARCHAR (255) NOT NULL.
+Le type de la colonne Wallet dans la table [dbo].[Users] est actuellement  FLOAT (53) NOT NULL, mais est remplacé par  MONEY NOT NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  MONEY NOT NULL.
+
