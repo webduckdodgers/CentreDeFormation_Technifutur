@@ -1,0 +1,15 @@
+﻿@using BLL.Models.ViewModels;
+
+@model List<UserViewModel>;
+
+
+    <a asp-controller="User" asp-action="Create">Create New</a>
+
+    <ul>
+    @foreach (UserViewModel u in @Model)
+    {
+        <li>
+            <p>@u.Email @u.Name - <a asp-controller="User" asp-action="Details" asp-route-id="@u.Id">Afficher</a> </p>
+        </li>
+    }
+    </ul>

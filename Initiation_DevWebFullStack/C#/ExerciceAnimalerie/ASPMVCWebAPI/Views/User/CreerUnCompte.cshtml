@@ -1,0 +1,28 @@
+﻿
+@model Form
+
+
+<h1>Veillez remplir le formulaire pour créer votre compte Steam :</h1>
+
+<form method="post">
+
+    <div class="prenom">
+        <label>Prénom :</label>
+        <input type="text" asp-for="FirstName" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="nom">
+        <label>Nom :</label>
+        <input type="text" asp-for="LastName" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="email">
+        <label>Boîte mail :</label>
+        <input type="email" asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <input type="submit" value="Envoyer">
+</form>

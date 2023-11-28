@@ -1,0 +1,26 @@
+﻿
+@using BLL.Models.Forms;
+
+@model CreateUserForm;
+
+<h1>Creer user</h1>
+
+@*<div asp-validation-summary="All" class="text-danger"></div>
+*@
+<form method="post">
+    <label>Email</label>
+    <input type="text" asp-for="Email"/>
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br />
+    <label>Nom</label>
+    <input asp-for="Name" />
+
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    <label>Mot de paaaaaaasse</label>
+    <input type="password" asp-for="Password" />
+
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br />
+    <button type="submit">Soumettre</button>
+</form>

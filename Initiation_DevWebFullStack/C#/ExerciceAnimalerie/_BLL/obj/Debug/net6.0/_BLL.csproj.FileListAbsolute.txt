@@ -1,0 +1,11 @@
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\bin\Debug\net6.0\_BLL.deps.json
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\bin\Debug\net6.0\_BLL.dll
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\bin\Debug\net6.0\_BLL.pdb
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\_BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\_BLL.AssemblyInfoInputs.cache
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\_BLL.AssemblyInfo.cs
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\_BLL.csproj.CoreCompileInputs.cache
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\_BLL.dll
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\refint\_BLL.dll
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\_BLL.pdb
+C:\Users\Cesar\Documents\GitHub\DuckDodgers\CentreDeFormation_Technifutur\Initiation_DevWebFullStack\C#\ExerciceAnimalerie\_BLL\obj\Debug\net6.0\ref\_BLL.dll
