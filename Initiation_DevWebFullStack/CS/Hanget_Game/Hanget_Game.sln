@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanget_Game", "Hanget_Game.csproj", "{AAD75494-114A-4721-817C-7E6A4EE35BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAD75494-114A-4721-817C-7E6A4EE35BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD75494-114A-4721-817C-7E6A4EE35BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD75494-114A-4721-817C-7E6A4EE35BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD75494-114A-4721-817C-7E6A4EE35BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {949E5D01-A95E-4BC4-AB26-B0C7DEE45D70}
+	EndGlobalSection
+EndGlobal
